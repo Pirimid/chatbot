@@ -1,0 +1,29 @@
+{
+  "name": "nba-chatbot",
+  "version": "1.0.0",
+  "description": "This is a banking chatbot application.",
+  "main": "index.js",
+  "dependencies": {
+    "express": "^4.16.4",
+    "mongoose": "^4.13.18"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jaydeepdholakia/bank.git"
+  },
+  "keywords": [
+    "chatbot",
+    "bank",
+    "banking"
+  ],
+  "author": "Jaydeep Dholakia",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jaydeepdholakia/bank/issues"
+  },
+  "homepage": "https://github.com/jaydeepdholakia/bank#readme"
+}
