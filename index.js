@@ -2,7 +2,7 @@
 var express  = require('express'),
 bodyParser   = require('body-parser'),
 http         = require('http'),
-config       = require('./config'),
+config       = require('./Config'),
 server       = express(),
 mongoose     = require('mongoose'),
 TeamInfo     = require('./API/Models/TeamInfo'), //created model loading here
