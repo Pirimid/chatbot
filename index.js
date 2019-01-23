@@ -5,8 +5,7 @@ http         = require('http'),
 config       = require('./Config'),
 server       = express(),
 mongoose     = require('mongoose'),
-TeamInfo     = require('./API/Models/TeamInfo'), //created model loading here
-GameSchedule = require('./API/Models/GameSchedule');
+account_info_index= require('./API/Models/account_info');
 // mongoose instance connection url connection
 mongoose.Promise = global.Promise;
 mongoose.connect(config.dbUrl);
