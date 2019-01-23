@@ -1,6 +1,5 @@
 'use strict';
 var mongoose = require('mongoose');
-var savings_s = mongoose.model('savings_s');
 var account_info = mongoose.model('account_info');
 
 
