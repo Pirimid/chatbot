@@ -8,6 +8,6 @@ app.get('/',function(req,res){
   });
 // registerUser Route
   app.route('/')
-    app.post(gameDataController.processRequest);
+    app.get(gameDataController.processRequest);
 };
 
