@@ -1,6 +1,6 @@
-var mongoose = require('mongoose');
-var Schema = mongoose.Schema;
-var savings_s = new Schema({
+const mongoose = require('mongoose');
+const Schema = mongoose.Schema;
+const savings_s = new Schema({
 balance:{
 	type:String,
 	required:false
