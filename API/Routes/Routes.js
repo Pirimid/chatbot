@@ -1,13 +1,13 @@
 'use strict';
-var express = require('express');
+const express = require('express');
 module.exports = function(app) {
-  var gameDataController = require('../Controllers/GameDataController');
-var apiRoutes =  express.Router();
-app.get('/',function(req,res){
+  const accountDataController = require('../Controllers/AccountDataController');
+  const apiRoutes =  express.Router();
+  app.get('/',function(req,res){
     res.send('We are happy to see you using Chat Bot Webhook');
   });
-// registerUser Route
+  // registerUser Route
   app.route('/')
-    app.get(gameDataController.processRequest);
+  app.get(accountDataController.processRequest);
 };
 

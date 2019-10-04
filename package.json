@@ -1,5 +1,5 @@
 {
-  "name": "nba-chatbot",
+  "name": "banking-chatbot",
   "version": "1.0.0",
   "description": "This is a banking chatbot application.",
   "main": "index.js",
@@ -14,7 +14,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/jaydeepdholakia/bank.git"
+    "url": "git+https://github.com/Pirimid/chatbot.git"
   },
   "keywords": [
     "chatbot",
@@ -24,7 +24,7 @@
   "author": "Jaydeep Dholakia",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/jaydeepdholakia/bank/issues"
+    "url": "https://github.com/Pirimid/chatbot/issues"
   },
-  "homepage": "https://github.com/jaydeepdholakia/bank#readme"
+  "homepage": "https://github.com/Pirimid/chatbot/bank#readme"
 }
